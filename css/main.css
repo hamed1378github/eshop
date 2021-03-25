@@ -14,11 +14,7 @@
 }
 .topinfo{
     border-bottom: 1px solid #303e4f;
-    display: flex;
     justify-content: space-between;
-}
-.languagelist{
-    display: flex;
 }
 .languagelink{
     padding: 5px 15px;
@@ -32,9 +28,6 @@
     vertical-align: middle;
     padding-left: 5px;
 }
-.accountlist{
-    display: flex;
-}
 .accountlink{
     display: block;
     padding: 5px 10px;   
@@ -45,15 +38,54 @@
 .accountlink:hover{
     color: #fff;
 }
-
-
-
-
-
-
-
-
-
+.topinformaition{
+    border-bottom: 1px solid #303e4f;
+    padding: 30px;
+}
+.searchbox{
+    flex-grow: 1;
+    height: 40px;    
+    justify-content: center;
+    margin-top: 5px;
+    
+}
+.categorysearch{
+    border: none;
+    border-radius: 0 20px 20px 0;
+    padding: 10px 20px;
+}
+.inputsearch{
+    border: none;
+    padding: 10px 20px;
+    width: 50%;
+}
+.inputicon{
+    padding: 8px 20px;
+    background-color:#F4A137;
+    border-radius: 20px 0 0 20px;
+    color: #fff !important;
+}
+.inputicon:hover{
+background-color: #555555;
+}
+.contactus,.cart{
+    color: #fff;
+    margin: 0 10px;
+}
+.contactusicon{
+    font-size: 2.3em;
+    padding: 5px 10px;
+}
+.contactusinfo,.cartinfo{
+    font: 0.9em;
+    margin-top: 4px;
+}
+.carticon i{
+    background-color: #F4A137;
+    font-size: 1.3em;
+    padding: 5px 10px;
+   margin: 15px 7px;
+}
 
 
 
