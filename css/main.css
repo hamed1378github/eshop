@@ -86,10 +86,28 @@ background-color: #555555;
     padding: 5px 10px;
    margin: 15px 7px;
 }
-
-
-
-
+.mainnavlink{
+    display: block;
+    padding: 10px 12px;
+}
+.mainnavlink:hover{
+    color: #fff;
+}
+.mainnavlist{
+    position: relative;
+}
+.submenu{
+    display: none;
+    height: 500px;
+    position: absolute;
+    width: 90%;
+    top: 100%;
+    right: 0;
+    background-color: red;
+}
+.mainnavitem:hover>.submenu{
+    display: block;
+}
 
 
 
