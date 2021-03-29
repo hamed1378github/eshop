@@ -1,0 +1,29 @@
+.btn{
+    color: #444;
+    border: 1px solid #ddd;
+    padding: 7px 10px;
+}
+.btn-solid:hover{
+ background-color: #F4A137;
+ color: #fff;
+ border-color: #F4A137;
+}
+.btn-regular:hover{
+    border-color: #F4A137;
+    color: #F4A137;
+}
+.overleybutton{
+    border: none;
+    position: absolute;
+    display: block;
+    width: 70%;
+    top: 50%;
+    right: 30px;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    background-color: #F4A137;
+}
+.overleybutton:hover{
+    background-color: #000;
+}
