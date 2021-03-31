@@ -177,7 +177,7 @@ padding: 10px;
     padding: 10px;    
 }
 .topproductimage{
-    width: 100%;
+    width: 33%;
 }
 .topproducttitle:hover{
 color: #F4A137;
@@ -189,8 +189,9 @@ display: block;
 .topproductbuttons{
     margin: 10px 0;
 }
-.topproductimages{
+.topproductimagess{
     position: relative;
+    width: 100%;
 }
 .overleyimage{
 position: absolute;
@@ -225,12 +226,39 @@ overflow: hidden;
 .topsellthumbnailimage{
     width: 100%;
 }
-
-
-
-
-
-
+.bannerimage{
+    display: block;
+    width: 100%;
+}
+.newproductitem{
+    width: 25%;
+    flex-grow: 1;
+}
+.collectionitem{
+    width: 16.5;
+    flex-grow: 1;
+}
+.collectionlink{
+    position: relative;
+    display: block;
+    border: 1px solid transparent;
+    background-color: #eee;
+    margin: 10px;
+    border-bottom: 3px solid #F4A137;
+}
+.collectionlink:hover{
+    border-color: #F4A137;
+    background-color: #fff;
+}
+.collectioncontant{
+position: absolute;
+top: 15px;
+right: 50px;
+color: #999;
+text-align: center;
+font-size: 1.3em;
+font-weight: bold;
+}
 
 
 

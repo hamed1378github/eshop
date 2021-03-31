@@ -27,3 +27,24 @@
 .overleybutton:hover{
     background-color: #000;
 }
+
+/* effects */
+.overlyimage{
+    position: relative;
+}
+.overlyimage::before{
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    opacity: 0.3;
+    transition: all 0.3s linear;
+
+}
+.overlyimage:hover::before{
+    transform: scaleX(1);    
+}
